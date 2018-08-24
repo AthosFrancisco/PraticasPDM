@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="br.edu.ifpe.tads.pdm.pratica01.MainActivity"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/edit_message"
+        android:hint="@string/edit_message"
+        android:layout_width="0pt"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.66"/>
+
+    <Button
+        android:id="@+id/button_send"
+        android:hint="@string/button_send"
+        android:text="@string/button_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/button_button" />
+
+</LinearLayout>
